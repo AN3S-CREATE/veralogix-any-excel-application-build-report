@@ -1,0 +1,75 @@
+{
+  "version": "2",
+  "flowTitle": "AI Data Analysis & Spreadsheet Generator",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK",
+    "settings": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "anyOf": [
+              {
+                "const": "analyze",
+                "title": "Analyze Data Type"
+              },
+              {
+                "const": "generate",
+                "title": "Generate Spreadsheet"
+              }
+            ]
+          },
+          "rawData": {
+            "type": "string",
+            "description": "Input for rawData"
+          },
+          "userAnswers": {
+            "type": "string",
+            "description": "Input for userAnswers"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "9c780e36-466c-46f8-bdad-804d1a280234",
+      "valid": true,
+      "displayName": "AI: Analyze, Generate or Revise Spreadsheet",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "{{ trigger[\"body\"][\"rawData\"] }}",
+          "model": "openai/gpt-5.4",
+          "prompt": "You are an expert data analyst and spreadsheet architect. You receive raw business data or an existing spreadsheet JSON and must respond with ONLY valid JSON — no markdown fences, no explanation, just the JSON object.\n\nMode: {{ trigger[\"body\"][\"mode\"] }}\nUser Answers / Revision Instructions: {{ trigger[\"body\"][\"userAnswers\"] }}\n\n---\n\nIF mode is 'analyze':\nRead the raw data carefully. Detect the data type and produce clarifying questions tailored to the actual content. Respond with:\n{\n  \"detectedType\": \"meeting_notes|sales_data|financial|inventory|project_tasks|customer_feedback|report|other\",\n  \"confidence\": 0.95,\n  \"summary\": \"One-sentence description of what the data contains and what kind of spreadsheet would be useful\",\n  \"questions\": [\n    { \"id\": \"q1\", \"question\": \"Question relevant to THIS data\", \"options\": [\"Option A\", \"Option B\", \"Option C\", \"Option D\"] },\n    { \"id\": \"q2\", \"question\": \"Second question\", \"options\": [\"...\" ] },\n    { \"id\": \"q3\", \"question\": \"Third question\", \"options\": [\"...\"] },\n    { \"id\": \"q4\", \"question\": \"Fourth question\", \"options\": [\"...\"] },\n    { \"id\": \"q5\", \"question\": \"Fifth question\", \"options\": [\"...\"] }\n  ],\n  \"suggestedSheets\": [\"Sheet1\", \"Sheet2\", \"Sheet3\"]\n}\n\n---\n\nIF mode is 'generate':\nUsing the raw data AND the user's answers, generate a complete, realistic, data-rich spreadsheet. Rules:\n- Infer and synthesize realistic row data from the raw input — do NOT leave rows empty or use placeholder values like 'value1'\n- Include at least 8-15 realistic rows per primary sheet\n- Column names must be specific and meaningful (e.g. 'Contract Value ($)' not 'Value')\n- If the data mentions names, companies, dates, amounts — USE THEM in the rows\n- Generate 2-4 sheets unless the user specified otherwise\n- Include a Summary sheet with key metrics when appropriate\n- formulas array is optional but useful for Excel columns\n\nRespond with:\n{\n  \"title\": \"Descriptive Title — Structured Spreadsheet\",\n  \"dataType\": \"the_detected_type\",\n  \"summary\": \"What was generated and key insights\",\n  \"sheets\": [\n    {\n      \"name\": \"Sheet Name\",\n      \"description\": \"What this sheet tracks\",\n      \"columns\": [\"Column 1\", \"Column 2\", \"Column 3\"],\n      \"rows\": [\n        [\"row1val1\", \"row1val2\", \"row1val3\"],\n        [\"row2val1\", \"row2val2\", \"row2val3\"]\n      ],\n      \"formulas\": [\n        { \"cell\": \"D2\", \"formula\": \"=SUM(C2:C100)\", \"description\": \"Total\" }\n      ]\n    }\n  ]\n}\n\n---\n\nIF mode is 'revise':\nThe raw data is a JSON stringified SpreadsheetData object. Apply the revision instruction provided in userAnswers. Make targeted, intelligent changes. Preserve all sheets not affected by the revision. Add/remove/modify rows and columns as needed. Return the complete updated spreadsheet in the same format as 'generate' mode."
+        }
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "type": "http_response",
+      "body": {
+        "type": "json",
+        "data": {
+          "type": "basic",
+          "payload": [
+            {
+              "result": "{{ 1fd82f3f-f829-4660-9e24-c924325e5c46[\"result\"] }}"
+            },
+            {
+              "mode": "{{ trigger[\"body\"][\"mode\"] }}"
+            }
+          ]
+        }
+      },
+      "key": "trigger"
+    }
+  ]
+}

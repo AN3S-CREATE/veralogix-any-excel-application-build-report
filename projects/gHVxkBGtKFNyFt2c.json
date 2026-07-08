@@ -1,0 +1,717 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "df7b6d30-e924-4d3c-b53f-402c1f1c64d6",
+        "text": {
+          "ops": [
+            {
+              "insert": "Spreadsheet Templates"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "79734c76-979d-4374-a4e8-6d8e8d08845e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Meeting Notes Template",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "cac51bca-f618-4bc1-a029-a30c9fd87d19",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 1: Action Items — Task, Owner, Deadline, Priority, Status",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a60791af-e938-4639-ad74-0e3f1675d2dc",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 2: Decisions — Decision, Rationale, Decided By, Date",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c8b1671e-f890-4c96-87e1-0c5044681746",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 3: Attendees — Name, Role, Email, Department",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "15eb5f4e-ddfd-4b23-9608-7ecfc68df756",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 4: Follow-ups — Item, Assigned To, Due Date, Notes",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "f1a2b3c4-d5e6-7890-abcd-ef1234567890",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Sales Data Template",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 1: Leads — Name, Company, Email, Phone, Source, Stage, Date",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b2c3d4e5-f678-90ab-cdef-1234567890ab",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 2: Deals — Deal Name, Value, Stage, Close Date, Rep, Probability",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c3d4e5f6-7890-abcd-ef12-34567890abcd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 3: Revenue Summary — Month, Target, Actual, Variance, Growth %",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d4e5f678-90ab-cdef-1234-567890abcdef",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 4: Forecast — Quarter, Pipeline Value, Expected Close, Risk Level",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "e5f67890-abcd-ef12-3456-7890abcdef12",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Financial / Expense Template",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "f6789012-bcde-f123-4567-890abcdef123",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 1: Transactions — Date, Description, Category, Amount, Payment Method",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a7890123-cdef-1234-5678-90abcdef1234",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 2: Categories — Category, Budget, Spent, Remaining, % Used",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b8901234-def1-2345-6789-0abcdef12345",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 3: Monthly Summary — Month, Income, Total Expenses, Net, Savings Rate",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "c9012345-ef12-3456-789a-bcdef1234567",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Project / Task Notes Template",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d0123456-f123-4567-89ab-cdef12345678",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 1: Tasks — Task Name, Description, Priority, Status, Due Date",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e1234567-1234-5678-9abc-def123456789",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 2: Owners — Name, Role, Tasks Assigned, Completion %",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f2345678-2345-6789-abcd-ef1234567890",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 3: Timeline — Milestone, Start Date, End Date, Dependencies, Status",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a3456789-3456-789a-bcde-f12345678901",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 4: Risks — Risk, Likelihood, Impact, Mitigation, Owner",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "b4567890-4567-89ab-cdef-123456789012",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Inventory Template",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "c5678901-5678-9abc-def1-234567890123",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 1: Items — SKU, Name, Category, Qty On Hand, Reorder Level, Unit Cost",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d6789012-6789-abcd-ef12-345678901234",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 2: Suppliers — Supplier, Contact, Lead Time, Min Order, Last Order",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e7890123-789a-bcde-f123-456789012345",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 3: Stock Alerts — Item, Current Qty, Alert Level, Action Required",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "f8901234-89ab-cdef-1234-567890123456",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Customer Feedback Template",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a9012345-9abc-def1-2345-678901234567",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 1: Feedback — Customer, Date, Channel, Rating, Comment, Category",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b0123456-abcd-ef12-3456-789012345678",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 2: Sentiment Summary — Category, Positive %, Negative %, Neutral %, Top Issues",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c1234567-bcde-f123-4567-890123456789",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sheet 3: Action Items — Issue, Priority, Assigned Team, Resolution, Status",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🔍"
+    }
+  }
+}

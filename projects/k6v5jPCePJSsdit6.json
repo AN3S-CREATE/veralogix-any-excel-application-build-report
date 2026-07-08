@@ -1,0 +1,589 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a2b3c4d5-e6f7-8901-abcd-ef1234567890",
+        "text": {
+          "ops": [
+            {
+              "insert": "App Config & Formula Suggestions"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "b3c4d5e6-f789-0123-bcde-f12345678901",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Supported Input Types",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "c4d5e6f7-8901-23bc-def1-234567890123",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Meeting Notes — detect keywords: agenda, attendees, action items, decisions, minutes",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d5e6f789-0123-4bcd-ef12-345678901234",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Sales Data — detect keywords: leads, pipeline, deals, revenue, CRM, quota, forecast",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e6f78901-2345-6cde-f123-456789012345",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Financial Data — detect keywords: expenses, budget, transactions, invoices, P&L, costs",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f7890123-4567-8def-1234-567890123456",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Inventory — detect keywords: SKU, stock, quantity, supplier, warehouse, reorder",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a8901234-5678-9ef0-2345-678901234567",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Project Notes — detect keywords: tasks, milestones, deadlines, owner, sprint, status",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b9012345-6789-0f01-3456-789012345678",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Customer Feedback — detect keywords: rating, review, NPS, complaint, satisfaction, survey",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "c0123456-7890-1012-4567-890123456789",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Formula Suggestions Library",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "d1234567-8901-2123-5678-901234567890",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SUM — =SUM(B2:B100) — Total all numeric values in a column",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e2345678-9012-3234-6789-012345678901",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "AVERAGE — =AVERAGE(C2:C50) — Mean of numeric column",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "f3456789-0123-4345-7890-123456789012",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "COUNTIF — =COUNTIF(D:D,\"Closed\") — Count rows matching a condition",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a4567890-1234-5456-8901-234567890123",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "SUMIF — =SUMIF(E:E,\"Q1\",F:F) — Sum based on a condition",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b5678901-2345-6567-9012-345678901234",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "VLOOKUP — =VLOOKUP(A2,Sheet2!A:C,2,0) — Cross-reference data",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c6789012-3456-7678-0123-456789012345",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "TODAY / DATEDIF — =TODAY()-A2 — Track days elapsed since a date",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d7890123-4567-8789-1234-567890123456",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "IF — =IF(G2>1000,\"High\",\"Low\") — Conditional labels or flags",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e8901234-5678-9890-2345-678901234567",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "CONCATENATE — =CONCAT(A2,\" \",B2) — Merge first and last name columns",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "f9012345-6789-0901-3456-789012345678",
+            "text": {
+              "ops": [
+                {
+                  "insert": "AI Clarifying Questions Bank",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "a0123456-7890-1012-4567-890123456789",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Q1: What is the primary goal of this spreadsheet? (track, analyze, report, share)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "b1234567-8901-2123-5678-901234567890",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Q2: How many tabs/sheets do you want? (let AI decide / 1 / multiple)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c2345678-9012-3234-6789-012345678901",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Q3: Who will use this spreadsheet? (just me / team / management / external)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d3456789-0123-4345-7890-123456789012",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Q4: Should the AI include calculated totals and summary rows? (yes / no)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "e4567890-1234-5456-8901-234567890123",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Q5: Any specific columns or fields you want to include or exclude?",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🎖️"
+    }
+  }
+}
