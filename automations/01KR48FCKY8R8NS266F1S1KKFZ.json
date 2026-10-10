@@ -1,0 +1,156 @@
+{
+  "version": "2",
+  "flowTitle": "Document Extraction & Spreadsheet Generator",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK",
+    "settings": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "documentUrl": {
+            "type": "string",
+            "description": "Input for documentUrl"
+          },
+          "userAnswers": {
+            "type": "string",
+            "description": "Input for userAnswers"
+          },
+          "documentType": {
+            "type": "string",
+            "anyOf": [
+              {
+                "const": "file",
+                "title": "File (PDF, DOCX, XLSX, PPTX, CSV)"
+              },
+              {
+                "const": "webpage",
+                "title": "Webpage / Website"
+              },
+              {
+                "const": "youtube",
+                "title": "YouTube Video"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "8153209c-ec36-4ede-b8ee-a1b3e2479c2f",
+      "valid": true,
+      "displayName": "Route by Document Type",
+      "type": "BRANCH",
+      "settings": {},
+      "paths": [
+        {
+          "name": "079cf446-9ae4-4856-8d19-3283444ff72d",
+          "valid": true,
+          "displayName": "File (PDF / DOCX / XLSX / CSV)",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "CUSTOM",
+              "input": {
+                "type": "or",
+                "value": [
+                  {
+                    "type": "and",
+                    "value": [
+                      {
+                        "condition": "text_matches",
+                        "id": "c8c75b4d-3245-4c9b-b750-db53b90833cb",
+                        "data": "{{ trigger[\"body\"][\"documentType\"] }}",
+                        "comparator": "file"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "actions": [
+            {
+              "name": "b0d32001-021b-4b31-993e-2ff9b25572d7",
+              "valid": true,
+              "displayName": "Extract Text from Document File",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-media",
+                "pieceVersion": "1.0.0",
+                "actionName": "pdf.convertToText",
+                "input": {
+                  "pdfUrl": "{{ trigger[\"body\"][\"documentUrl\"] }}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "4fb32826-d68c-46a5-8cbf-3a4c99ed3aa0",
+          "valid": true,
+          "displayName": "Webpage or YouTube (fallback)",
+          "type": "BRANCH_PATH",
+          "settings": {
+            "ruleset": {
+              "type": "FALLBACK"
+            }
+          },
+          "actions": [
+            {
+              "name": "920ddc5d-ba73-4443-a588-686612131700",
+              "valid": true,
+              "displayName": "Scrape Webpage / Extract URL Content",
+              "type": "PIECE",
+              "settings": {
+                "pieceName": "@taskade/automade-internalpiece-media",
+                "pieceVersion": "1.0.0",
+                "actionName": "website.extract",
+                "input": {
+                  "websiteUrl": "{{ trigger[\"body\"][\"documentUrl\"] }}",
+                  "errorBehavior": "continue"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3276cbbb-6b30-4248-8189-7ca84f545de2",
+      "valid": true,
+      "displayName": "AI: Generate Spreadsheet from Extracted Content",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "{{ b0d32001-021b-4b31-993e-2ff9b25572d7[\"content\"] }}{{ 920ddc5d-ba73-4443-a588-686612131700[\"content\"] }}",
+          "model": "openai/gpt-5.4",
+          "prompt": "You are an expert data analyst. You have been given extracted text content from a document (PDF, Word, webpage, spreadsheet, or similar). Your job is to transform this content into a well-structured spreadsheet.\n\nUser Preferences: {{ trigger[\"body\"][\"userAnswers\"] }}\nSource URL: {{ trigger[\"body\"][\"documentUrl\"] }}\n\nInstructions:\n1. Deeply read and understand the document content\n2. Identify all data tables, lists, key-value pairs, and structured information\n3. Create a meaningful multi-sheet spreadsheet that captures ALL the important data\n4. Synthesize and normalize the data — do not just copy it verbatim\n5. Add calculated columns where useful (totals, status labels, priority scores)\n6. If the document mentions names, dates, values, companies — USE them in the rows\n7. Generate at least 2-3 sheets. Always include a Summary sheet with key insights\n8. Column names must be specific (e.g. 'Contract Value ($)' not 'Value')\n\nRespond with ONLY valid JSON — no markdown, no explanation:\n{\n  \"title\": \"Document-derived Title — Structured Spreadsheet\",\n  \"dataType\": \"financial|project_tasks|meeting_notes|sales_data|inventory|report|other\",\n  \"summary\": \"What was extracted and the key insights found in this document\",\n  \"sheets\": [\n    {\n      \"name\": \"Sheet Name\",\n      \"description\": \"What this sheet captures from the document\",\n      \"columns\": [\"Column A\", \"Column B\", \"Column C\"],\n      \"rows\": [\n        [\"val1\", \"val2\", \"val3\"]\n      ]\n    }\n  ]\n}"
+        }
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "type": "http_response",
+      "body": {
+        "type": "json",
+        "data": {
+          "type": "basic",
+          "payload": [
+            {
+              "result": "{{ 3276cbbb-6b30-4248-8189-7ca84f545de2[\"result\"] }}"
+            }
+          ]
+        }
+      },
+      "key": "trigger"
+    }
+  ]
+}

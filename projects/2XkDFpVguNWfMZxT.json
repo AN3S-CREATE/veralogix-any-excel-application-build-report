@@ -1,0 +1,365 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "5b029c38-9b88-41cb-bc92-9df89dcd3a31",
+        "text": {
+          "ops": [
+            {
+              "insert": "AI Excel Creator - Build Memory"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "0e933d70-76c3-467d-b5d6-a39b982154f6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Projects",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": [
+              {
+                "type": "text",
+                "id": "97c7bf93-9535-4a1b-8d97-7d6aa972fefa",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Spreadsheet Sessions — ID: cBaL36UcHGhFRM3a",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "6ba892d7-5aa4-4ea3-b68f-ce6eecd21c80",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Spreadsheet Templates — ID: gHVxkBGtKFNyFt2c",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3217a694-b237-4a38-a88d-e50002b2e5d7",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "App Config & Formula Suggestions — ID: k6v5jPCePJSsdit6",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "68c7a995-36bc-4e0f-89df-20bb98742633",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Agent",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": [
+              {
+                "type": "text",
+                "id": "e2aa8d3d-f4fc-4e73-8e17-a99d9a81735d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Excel AI Assistant — ID: 01KR3C3290V7YDD8FSR43FBP1C (public)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "23bfcaa2-d9cc-4001-a999-998e5096cd70",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Automation",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": [
+              {
+                "type": "text",
+                "id": "21ef79a3-9f7b-4360-a043-1538670e8001",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "AI Data Analysis Webhook Flow — ID: 01KR3C3XTF9STPBJ9WPRC5507G",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "f33492ae-f776-47b0-bde6-623b158ba52b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "App Files Built",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": [
+              {
+                "type": "text",
+                "id": "583a677f-064e-476e-9375-92324f3bdf91",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "src/App.tsx — main router",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d75434f7-b088-43b9-8505-b6d098efe93a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "src/components: LandingPage, UploadPage, QuestionsPage, SpreadsheetEditor, StepLayout, AgentChat",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "4bd8c68a-51a5-46fa-abca-2fa050cda441",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "src/lib: ai-service.ts, excel-export.ts (custom ZIP/XLSX builder)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "db18c7ca-dd70-4400-a904-b609d64b7b77",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "src/types/index.ts — all shared types",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "⏳"
+    }
+  }
+}

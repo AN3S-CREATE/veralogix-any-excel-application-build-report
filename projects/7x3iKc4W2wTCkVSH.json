@@ -1,0 +1,1047 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "0f81364c-97bd-4c9b-aeb2-1c0119f96934",
+        "text": {
+          "ops": [
+            {
+              "insert": "TASKS.md"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "a4ad235a-c9fd-457e-9fe3-e84e60193c5a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Done",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "0805f0b5-7e4a-47f5-89b9-9d184e6feb6b",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-07 12:58 UTC - Primary Request and Intent",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "5dc89453-4df4-480f-9263-315e8ade8bfd",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Primary Request and Intent:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "06bbc527-8a2d-4567-9f64-b7871e89d34d",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "User requested a \"Share\" feature for spreadsheets.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "0ee52ad6-4f6a-4246-81c5-797bb427f47a",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "User requested \"real AI\" capabilities for spreadsheet generation (improving prompts/modes) and document manipulation (PDF/Word/URL/YouTube to spreadsheet).",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "bcb46850-b301-4c26-af8a-e430556aecb0",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "User requested adding formula support (e.g., =SUM, =AVERAGE).",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "3fd9b226-b883-413a-8ca3-a0c589b9d544",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Files and Code Sections:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "24bcb93c-d023-47f1-9452-722afdf6b5a5",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/lib/share.ts: Created for URL-safe Base64 hashing.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "eb8cfc82-177e-42cd-87e7-5b4f4953e489",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/components/ShareModal.tsx: Created the UI for sharing links.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "17fe9e47-6640-4985-86a6-e81c28f4a029",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/lib/ai-service.ts: Updated to include callMainWorkflow, callDocWorkflow, and processDocument.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "92b69705-c460-4bb6-b74e-94763f6d2713",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/components/UploadPage.tsx: Completely rewritten to include URL input and document type detection.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "8d9c1bb0-5a61-41de-8c33-8f5bea011617",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "/app/src/components/SpreadsheetEditor.tsx: Modified for share buttons and currently undergoing formula integration.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "6fa22c00-0270-451e-a017-a2b9791d37c1",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Errors and fixes:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "dea1042d-a7ff-43df-ad5a-6b66254128f0",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Lint Warnings:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Encountered lint warnings in workflow management tool for \"side effects\" and \"non-existent steps\" due to conditional branching in Taskade workflow logic. Resolved by acknowledging that the engine correctly handles runtime template resolution.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "9d56fb5e-6115-413c-99a4-2247ccd85386",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "File Manager Error:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Received \"Unknown Error\" during a massive file write to UploadPage.tsx. Fixed by splitting the write into separate str_replace calls.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "e60df082-c291-4743-b484-9f4999463ece",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Problem Solving:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "a56c42f7-b831-4e0a-9e05-680b27c3940d",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Solved the persistence problem for links by encoding state into URL fragments.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "f3c41a5e-7d70-4ec9-be05-ecbb9f738504",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Resolved the \"poor quality generation\" issue by updating Taskade workflow prompts from GPT-5.4-mini to GPT-5.4 with explicit JSON constraints and multi-shot instructions.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "7ac97c0b-a865-4f99-a055-2632e94a1cfb",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Solved document parsing by chaining extraction actions to the AI generation step.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "e7ed1088-5940-4b9b-8c9f-cf2adb42db05",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "All user messages:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "99ee721e-6b94-414f-b622-ebbf147ed7f1",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "\"Add a share button that copies a public link to the spreadsheet so users can send it to colleagues.\"",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "0df3044e-285b-455d-90b1-fb0659faccb9",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "\"Add real ai for ai that creates the spreat sheet and give it document manupilatiom skills\"",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "15d7679b-0c87-4a64-b0ea-49ca56f7ba7b",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "\"Add formula support — let users click a cell and type an Excel-style formula like =SUM or =AVERAGE that auto-computes across rows.\"",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "f56f846c-6e86-422a-be6b-7280b05a8ced",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Pending Tasks:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "dbe08b40-8acf-4e53-84ed-78873b97ebf4",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Complete formula engine implementation.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "176bd639-ce42-454d-bd4d-90fa1328ca53",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Upgrade EditableCell to render calculated formula values.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "f5d2ef32-5fbd-4b63-b4f4-7511013d3593",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Add a formula bar above the grid.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "b873f411-c8c3-4244-89fa-5bd215395fb6",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Current Work:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "157784d3-1866-40c2-bd0a-cb3187c411fe",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Actively building the formula engine (SUM, AVERAGE, MIN, MAX, COUNT, etc.) and cell reference parsing logic.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "id": "e8ea50ec-c8e9-4c0d-b2b0-83d55f238427",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Optional Next Step:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "20dcb35b-25fa-48b0-b718-0a5ca4269fad",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Continue formula engine implementation as requested: \"Add formula support — let users click a cell and type an Excel-style formula like =SUM or =AVERAGE that auto-computes across rows.\"",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "9c9f940d-74f3-4776-b06f-5b2d26abcd9d",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Knowledge",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h2",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "children": [
+              {
+                "type": "text",
+                "id": "ae5168af-0da7-445b-ad25-383ae87f2cf9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2026-07-07 12:58 UTC - Key Technical Concepts",
+                      "attributes": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": true,
+                "completed": false,
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "34fe3235-c715-4dbe-91f1-8e83a69c83da",
+                    "text": {
+                      "ops": [
+                        {
+                          "insert": "Key Technical Concepts:",
+                          "attributes": {}
+                        },
+                        {
+                          "insert": "\n",
+                          "attributes": {
+                            "paragraph": true
+                          }
+                        }
+                      ]
+                    },
+                    "format": {
+                      "node": "number",
+                      "children": null
+                    },
+                    "collapsed": false,
+                    "completed": false,
+                    "children": [
+                      {
+                        "type": "text",
+                        "id": "1f1e2caf-ef4e-4eae-995b-1831799970f2",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "URL Hash Encoding:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Used for sharing state without backend persistence (src/lib/share.ts).",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "0eda6ebf-bb05-46e5-a51c-c86aad06d36f",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Taskade Automade Workflows:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Rebuilt main AI workflow (GPT-5.4) and created a dedicated document extraction workflow using Media/PDF internal pieces.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "1c08fb32-ab35-4f98-b103-c408b8f9cf63",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Document Extraction:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Using @taskade/automade-internalpiece-media for PDF/Web/YouTube text extraction.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "id": "208ee8c8-c90a-47d8-81c3-e90a4936bb8f",
+                        "text": {
+                          "ops": [
+                            {
+                              "insert": "Formula Engine:",
+                              "attributes": {
+                                "bold": true
+                              }
+                            },
+                            {
+                              "insert": " Currently designing a custom JS/TS formula parser to compute spreadsheet values.",
+                              "attributes": {}
+                            },
+                            {
+                              "insert": "\n",
+                              "attributes": {
+                                "paragraph": true
+                              }
+                            }
+                          ]
+                        },
+                        "format": {
+                          "node": "bullet",
+                          "children": null
+                        },
+                        "collapsed": false,
+                        "completed": false,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🖥️"
+    },
+    "coverImageType": "background",
+    "background": {
+      "data": {
+        "value": "bg-random"
+      },
+      "type": "default"
+    }
+  },
+  "pinnedAt": "2026-07-07T12:58:52.995Z"
+}
